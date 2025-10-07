@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - India Web Marketing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-teal': '#17a2b8',
+                        'brand-teal-dark': '#0d8799',
+                        'brand-orange': '#ff6b35',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <img src="attached_assets/Digital marketing_1759820536288.jpg" alt="India Web Marketing" class="h-12 w-12">
+                    <span class="text-2xl font-bold text-brand-teal">India Web Marketing</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-brand-teal transition duration-300">Home</a>
+                    <a href="about.html" class="text-brand-teal font-semibold">About</a>
+                    <a href="services.html" class="text-gray-700 hover:text-brand-teal transition duration-300">Services</a>
+                    <a href="portfolio.html" class="text-gray-700 hover:text-brand-teal transition duration-300">Portfolio</a>
+                    <a href="blog.html" class="text-gray-700 hover:text-brand-teal transition duration-300">Blog</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-brand-teal transition duration-300">Contact</a>
+                </div>
+                <button id="mobileMenuBtn" class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <div id="mobileMenu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="index.html" class="block text-gray-700 hover:text-brand-teal transition duration-300 py-2">Home</a>
+                <a href="about.html" class="block text-brand-teal font-semibold py-2">About</a>
+                <a href="services.html" class="block text-gray-700 hover:text-brand-teal transition duration-300 py-2">Services</a>
+                <a href="portfolio.html" class="block text-gray-700 hover:text-brand-teal transition duration-300 py-2">Portfolio</a>
+                <a href="blog.html" class="block text-gray-700 hover:text-brand-teal transition duration-300 py-2">Blog</a>
+                <a href="contact.html" class="block text-gray-700 hover:text-brand-teal transition duration-300 py-2">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-brand-teal to-brand-teal-dark text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl font-bold mb-4">About India Web Marketing</h1>
+            <p class="text-xl">Your Partner in Digital Growth</p>
+        </div>
+    </section>
+
+    <!-- Company Story -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold mb-6 text-gray-800 text-center">Our Story</h2>
+                <p class="text-lg text-gray-600 leading-relaxed mb-6">India Web Marketing is a creative digital marketing and website designing agency committed to transforming ideas into powerful online experiences. We help startups and small businesses achieve their goals with strategic web design, SEO, and digital marketing solutions.</p>
+                <p class="text-lg text-gray-600 leading-relaxed">With a passion for innovation and a commitment to excellence, we deliver customized solutions that drive real results. Our team combines creativity with data-driven strategies to ensure every project exceeds expectations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 text-gray-800 text-center">Meet Our Founder</h2>
+            <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl p-8 md:p-12">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="flex-shrink-0">
+                        <img src="attached_assets/komal pic_1759821204859.jpg" alt="Komal Agarwal" class="w-48 h-48 rounded-full object-cover shadow-lg">
+                    </div>
+                    <div class="flex-1 text-center md:text-left">
+                        <h3 class="text-3xl font-bold text-gray-800 mb-2">Komal Agarwal</h3>
+                        <p class="text-xl text-brand-teal font-semibold mb-4">Founder & CEO</p>
+                        <p class="text-gray-600 leading-relaxed mb-4">Komal Agarwal is a visionary entrepreneur and digital marketer who founded India Web Marketing with a mission to help businesses grow digitally. She believes in creativity, strategy, and consistent growth.</p>
+                        <p class="text-gray-600 leading-relaxed">With years of experience in web design and digital marketing, Komal has helped numerous businesses establish a strong online presence and achieve their digital goals. Her dedication to client success and innovative approach make her a trusted partner for businesses across India.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 text-gray-800 text-center">Our Core Values</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="text-center">
+                    <div class="text-brand-teal text-5xl mb-4">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Innovation</h3>
+                    <p class="text-gray-600">We constantly explore new ideas and technologies to deliver cutting-edge solutions.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-brand-teal text-5xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Client Focus</h3>
+                    <p class="text-gray-600">Your success is our priority. We work closely with you to achieve your goals.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-brand-teal text-5xl mb-4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Results Driven</h3>
+                    <p class="text-gray-600">We focus on measurable outcomes that contribute to your business growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-brand-teal text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4">Let's Build Something Great Together</h2>
+            <p class="text-xl mb-8">Ready to take your business to the next level?</p>
+            <a href="contact.html" class="bg-white text-brand-teal px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-block shadow-lg">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">India Web Marketing</h3>
+                    <p class="text-gray-400">Empowering businesses with smart digital solutions.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition duration-300">About</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition duration-300">Services</a></li>
+                        <li><a href="portfolio.html" class="text-gray-400 hover:text-white transition duration-300">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition duration-300">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300 text-2xl"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300 text-2xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300 text-2xl"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 India Web Marketing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        var mobileMenu = document.getElementById('mobileMenu');
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
